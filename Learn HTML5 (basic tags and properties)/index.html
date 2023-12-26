@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anshul A">
+    <meta name="description" content="">
+    <link rel="icon" href="media\download.png" type="image/x-icon">
+    <title>IE-E&C(The Manipal chapter)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+            background-color: beige;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        h2{
+            color: darkorchid;
+        }
+        
+        #desc{
+            color:maroon
+        }
+
+        ul{
+            color: teal;
+        }
+
+        img{
+            height: 100px;
+        
+        }
+
+        form{
+            color: deeppink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to <abbr title="Institution of Engineers - Electronics and Communication Club of Manipal">IE-E&C</abbr> (The Manipal chapter)</h1>
+    <h2>You must be wondring whats so <em>special</em> in this club?</h2>
+    <p id="desc">Well, IE-E&C is the official Students' Chapter of Electronics and Communication which:</p>
+    <ul>
+        <li>Goes beyond the theories into practical applications</li>
+        <li>We aspire to enhance the technical understanding of every individual who’s interested in areas concerning Electronics & Communication by conducting various workshop, events, and talks throughout the year.</li>
+        <li>We, being an established student body functioning as per the guidelines provided by ‘The Institution of Engineers (India)’, see to it that we provide enriched technical experience and also help students in areas pertaining to academia</li>
+    </ul>
+    
+    <div>
+        <p>Here's our board members</p>
+
+        <img src="media/group_2.706de0d15eccbfe138b1 copy.pnag" alt="board members image">
+    </div>
+
+    <form class="form">
+        <p>Here's a form which you can fill if you want to be a part of this revolutionary club: </p>
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        <hr>
+        <label for="regNo">Reg No: </label>
+        <input type="number" name="regNo" id="regNo">
+        <!-- break -->
+        <hr>
+        <label for="branch">Branch: </label>
+        <select name="branch" id="branch">
+            <option value="">CSE</option>
+            <option value="">ECE</option>
+            <option value="">EEE</option>
+            <option value="">Mech</option>
+            <option value="">Civil</option>
+            <option value="">Chem</option>
+            <option value="">Others</option>
+        </select>
+        <button>Submit</button>
+
+    </form>
+
+
+</body>
+
+</html>
